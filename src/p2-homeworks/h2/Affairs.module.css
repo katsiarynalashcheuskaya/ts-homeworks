@@ -1,3 +1,6 @@
-.someClass {
-
+.buttonBlock {
+    display: grid;
+    width: 300px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5px;
 }

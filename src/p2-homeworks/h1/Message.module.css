@@ -1,40 +1,36 @@
 .message {
     padding: 10px;
     display: flex;
-    flex-direction: row;
-    position: relative;
+    align-items: end;
+    background-color: #9fff09;
 }
-.avatar img {
+.avatar {
     height: 55px;
     width: 55px;
     border-radius: 50%;
     object-fit: cover;
-    position: absolute;
 }
 
 .name {
     color: mediumpurple;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
 }
 
 .text {
-    max-width: 540px;
-    /*flex-basis: 50%;*/
-    margin: 10px 0px;
+    min-width: 150px;
+    max-width: 450px;
+    word-wrap: break-word;
+    margin-top: 5px;
     color: white;
 }
 
 .bubble {
     padding: 10px;
-    max-width: 1000px;
-    background: black;
+    background: rgba(0, 0, 0, 0.75);
     position: relative;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-    margin-left: 100px;
-    opacity: 80%;
+    border-radius: 15px 15px 15px 0;
+    margin-left: 12px;
 
 }
 .bubble:before {
@@ -45,14 +41,14 @@
     display: block;
     width: 20px;
     height: 20px;
-    background: radial-gradient(40px at top left, transparent 50%, black 0) no-repeat right bottom;
+    background: radial-gradient(40px at top left, transparent 50%, rgba(0, 0, 0, 0.75) 0) no-repeat right bottom;
 }
 
 .time {
-    padding: 10px;
-    position: absolute;
-    bottom: 0px;
-    left: 70%;
     color: #9fff09;
     opacity: 50%;
+    float: right;
+    margin: -2px;
+
+
 }

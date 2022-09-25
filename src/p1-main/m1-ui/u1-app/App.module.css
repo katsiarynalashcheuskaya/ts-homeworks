@@ -1,6 +1,7 @@
 .App {
-  margin: 0px;
-  padding: 0px;
-  /*box-sizing: border-box;*/
-  background-color: #9fff09;
+  font-family: Tahoma;
+}
+
+.homework {
+  font-weight: bold;
 }

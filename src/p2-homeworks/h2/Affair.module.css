@@ -1,0 +1,18 @@
+.high {
+color: red;
+}
+.middle {
+    color: orange;
+}
+.low {
+    color: green;
+}
+
+.block {
+display: grid;
+    /*grid-template-columns: minmax(200px, 0.2fr) 0.15fr 0.15fr 0.2fr 0.8fr;*/
+    width: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+}
+
